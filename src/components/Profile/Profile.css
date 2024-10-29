@@ -1,0 +1,7 @@
+.profile-container {
+    border: 1px solid black;
+}
+
+.profile-container img {
+    border-radius: 50%;
+}
