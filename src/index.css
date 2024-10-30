@@ -24,4 +24,13 @@ img {
 
 ul {
   list-style: none;
+  padding: 0;
+}
+
+.container {
+  max-width: 360px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }

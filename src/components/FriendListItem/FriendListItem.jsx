@@ -1,9 +1,12 @@
+import css from "./FriendListItem.module.css";
 function FriendsListItem(props) {
   return (
-    <div>
+    <div className={css.container}>
       <img src={props.avatar} alt={props.name} />
       <p>{props.name}</p>
-      <p>{props.isOnline ? "Online" : "Offline"}</p>
+      <p className={props.isOnline ? css.online : css.offline}>
+        {props.isOnline ? "Online" : "Offline"}
+      </p>
     </div>
   );
 }
