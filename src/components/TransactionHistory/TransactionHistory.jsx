@@ -1,7 +1,5 @@
 import css from "./TransactionHistory.module.css";
 function TransactionHistory(items) {
-  console.log(items.items);
-
   return (
     <table>
       <thead>
